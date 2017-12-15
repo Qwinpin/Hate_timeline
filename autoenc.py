@@ -14,7 +14,6 @@ temp = np.array(dataset.values.tolist())
 temp2 = []
 
 for row in temp:
-    i += 1
     new = np.split(row, 30)
     temp2.append(new)
 
